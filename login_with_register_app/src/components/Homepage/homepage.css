@@ -1,0 +1,47 @@
+.homepage {
+  width: 80%;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fffef0;
+  border: 2px dashed #c2b280;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.homepage::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 20px;
+  background: #f4e04d;
+  border-radius: 10px 10px 0 0;
+}
+
+h1 {
+  color: #403d39;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #e63946;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d62828;
+}
+
+
