@@ -1,0 +1,66 @@
+.register {
+    width: 350px;
+    background: #a8a9ac; /* Soft light blue */
+    border: 1px solid #5e54e9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register h2 {
+    margin-bottom: 1.5rem;
+    color: #1a1a1a;
+}
+
+.register input {
+    width: 90%;
+    padding: 0.6rem;
+    margin: 0.6rem 0;
+    border-radius: 6px;
+    border: 1px solid #a0b9d9;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.register input:focus {
+    border: 1px solid #4a90e2;
+}
+
+.register .button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.register .button:hover {
+    background: #3b7bd8;
+}
+
+.register .links {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.register .links a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: 500;
+}
+
+.register .links a:hover {
+    text-decoration: underline;
+}
