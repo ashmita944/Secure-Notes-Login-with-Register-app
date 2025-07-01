@@ -11,6 +11,7 @@ import { useState } from 'react';
 
 function App() {
   const [user, setLoginUser] = useState({});
+  console.log("Current user in App.js:", user);
 
   return (
     <div className="App">
